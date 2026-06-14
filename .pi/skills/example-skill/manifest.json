@@ -1,0 +1,13 @@
+{
+  "id": "example-skill",
+  "name": "Example Skill",
+  "description": "A non-production fixture proving that new skills register without core routing or adapter changes.",
+  "invocation": ["/example-skill"],
+  "version": "0.1.0",
+  "actions": [
+    { "id": "outline", "label": "Outline", "description": "Return a small demonstration outline.", "outputShape": "Three bullets" }
+  ],
+  "knowledgePaths": [],
+  "supportedModes": ["practice"],
+  "triggers": ["example skill fixture"]
+}

@@ -1,0 +1,10 @@
+{
+  "enableSkillCommands": true,
+  "skills": ["skills"],
+  "prompts": ["prompts"],
+  "extensions": [],
+  "packages": [],
+  "hideThinkingBlock": true,
+  "defaultThinkingLevel": "low",
+  "enableInstallTelemetry": false
+}

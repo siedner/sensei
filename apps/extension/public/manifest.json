@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Sensei · Live PM Exercise Copilot",
+  "version": "0.1.0",
+  "description": "A local PM interview sidecar with explicit, user-controlled text capture.",
+  "permissions": ["sidePanel", "activeTab", "scripting"],
+  "host_permissions": ["http://localhost:3131/*", "http://127.0.0.1:3131/*"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Open Sensei"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
